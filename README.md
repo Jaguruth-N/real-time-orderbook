@@ -4,6 +4,76 @@
 
 This Next.js application displays a real-time orderbook viewer with order simulation capabilities. The application allows users to simulate order placement across multiple cryptocurrency exchanges (OKX, Bybit, and Deribit) and visualize where their orders would sit in the orderbook, helping them understand market impact and optimal timing.
 
+---
+
+## How to Run the Project Locally
+
+This guide will walk you through setting up and running the project after cloning it from a Git repository.
+
+#### **Prerequisites**
+
+Before you begin, make sure you have the following installed on your computer:
+
+1.  **Node.js**: This is the JavaScript runtime. You can download it from [nodejs.org](https://nodejs.org/).
+2.  **Git**: The version control system. You can download it from [git-scm.com](https://git-scm.com/).
+3.  **Visual Studio Code** (Recommended): The code editor. You can download it from [code.visualstudio.com](https://code.visualstudio.com/).
+
+#### **Step 1: Clone the Repository**
+
+First, clone the project repository to your local machine.
+
+1.  Open your terminal (or Command Prompt/PowerShell on Windows).
+2.  Navigate to the directory where you want to store the project.
+3.  Run the following command (replace the URL with your actual repository URL):
+
+    ```bash
+    git clone [https://github.com/your-username/real-time-orderbook.git](https://github.com/your-username/real-time-orderbook.git)
+    ```
+
+#### **Step 2: Navigate to Project Directory**
+
+1.  Change into the newly created project directory:
+
+    ```bash
+    cd real-time-orderbook
+    ```
+
+#### **Step 3: Install Dependencies**
+
+Install all the necessary project dependencies using `npm`.
+
+1.  Run the following command in the project's root directory:
+
+    ```bash
+    npm install
+    ```
+
+#### **Step 4: Run the Application**
+
+With the dependencies installed, you can start the local development server.
+
+1.  Run the following command:
+
+    ```bash
+    npm run dev
+    ```
+
+2.  You will see output in the terminal indicating that the server has started, usually with a message like:
+
+    ```
+    ✓ Ready in a few seconds
+    - Local:    http://localhost:3000
+    ```
+
+#### **Step 5: View in Your Browser**
+
+1.  Open your web browser (like Chrome, Firefox, or Edge).
+2.  Navigate to the URL provided in the terminal: **http://localhost:3000**.
+
+You should now see the Real-Time Orderbook Viewer application running live.
+
+---
+
 ## Features Implemented
 
 - **Multi-Venue Orderbook Display**: Displays real-time orderbooks from OKX, Bybit, and Deribit with 15 levels of bids and asks.
